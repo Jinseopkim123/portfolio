@@ -1,0 +1,123 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+
+header {
+    background-color: #9ea5e8;
+    color: #8000ff;
+    padding: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif; /* Adjusted font name */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Content Styles */
+
+main {
+    padding: 20px;
+}
+
+/* Biography Section Styles */
+
+#biography h3 {
+    color: #333;
+    border-bottom: 2px solid #ccc; /* Added border for visual separation */
+    padding-bottom: 10px;
+}
+
+#biography p {
+    margin-bottom: 20px;
+}
+
+/* Image Section Styles */
+
+#images h3 {
+    color: #333;
+}
+
+figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Links Styles */
+
+#links h3 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* Table Styles */
+
+#table h3 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Contact Information Styles */
+
+#contact h2 {
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+#contact p {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: #9ea5e8;
+    color: #8000ff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Comments */
