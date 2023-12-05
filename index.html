@@ -6,6 +6,8 @@
     <meta name="description" content="Jinseop's Portfolio Website">
     <title>Jinseop's Portfolio Website</title>
     <link href="styles.css" rel="stylesheet" />
+    <!--My JavaScript file using defer -->
+    <script defer src="directory/file.js"></script>
 </head>
 
 <body>
@@ -35,14 +37,14 @@
 
         <section id="images">
             <h3>Images</h3>
-            <figure>
+            <figure id="image1">
                 <img src="images/christie-kim-unsplash.jpg" alt="Image 1"
                     width="1500"
                     height="1500"
                 >
                 <figcaption>Image 1: Flower</figcaption>
             </figure>
-            <figure>
+            <figure id="image2">
                 <img src="images/dom-hill-unsplash.jpg" alt="Image 2"
                     width="1500"
                     height="1500"
@@ -51,17 +53,29 @@
             </figure>
         </section>
 
-        <section id="links">
+        <section id="links and fun!">
             <h3>My Links</h3>
             <ul>
-                <li><a href="https://www.instagram.com/champagnepapi/?hl=en" target="_blank">My Instagram</a></li>
-                <li><a href="https://www.microsoft.com/en-ca/" target="_blank">My Website</a></li>
+                <li><a href="https://www.instagram.com/champagnepapi/?hl=en" target="_blank" id="link1">My Instagram</a></li>
+                <li><a href="https://www.microsoft.com/en-ca/" target="_blank" id="link2">My Website</a></li>
+
+                <h3>Funny button corner</h3>
+                <!--- alert button here -->
+                <li><button id="btn-alert">Do not click</button></Show></li>
+                <!--- hover button here -->
+                <li><button id="btn-hover">Do not hover</button></li>
+                <!-- Incrementing Button -->
+                <button id="btn-counter">Please don't click me</button>
+                <p id="txt-counter"></p>
+                <!-- numbers loop -->
+                <h4>Loops</h4>
+                <ol id="numbers"></ol>
             </ul>
         </section>
            
         <section id="table">
             <h3>My Projects</h3>
-            <table>
+            <table id="ProjectsTable">
                 <tr>
                     <th>Projects</th>
                     <th>description</th>
@@ -80,11 +94,11 @@
 
     <aside id="contact">
         <h2>My Contact Information</h2>
-        <p>For business inquires, please reach out to me on <a href="https://twitter.com/JoeBiden" target="_blank">My Twitter!</a>.</p>
+        <p>For business inquires, please reach out to me on <a href="https://twitter.com/JoeBiden" target="_blank" id="contactLink">My Twitter!</a>.</p>
     </aside>
 
     <footer>
-        <p>&copy; 2023 Jinseop's Portfolio Website. All rights reserved.</p>
+        <p>&copy; <span id="footerYear"></span> Jinseop's Portfolio Website. All rights reserved.</p>
         <!-- Easter egg comment yay -->
     </footer>
 </body>
